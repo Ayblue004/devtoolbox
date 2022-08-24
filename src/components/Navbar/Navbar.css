@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a:not(.logo){
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	padding: 0.5rem 3rem;
+	color: #26EFBF;
+	display: block;
+	font-size: 1.2rem;
+}
+.mobile-nav{
+	background-color: black;
+	width: 100%;
+}
+.mobile-nav--flex{
+  	display: flex;
+	justify-content: center;
+}
+.buttons-container{
+	padding-top: 1rem;
+	align-content: center;
+	display: flex;
+}
+.logo{
+	font-family: 'Aleo', serif;
+	font-size: 2em;
+	color: white;
+	text-decoration: none;
+	margin: 0 auto;
+	align-self: flex-start;
+}
+
+.flex-container{
+	padding-top: 1rem ;
+	margin: 0 5rem;
+	display: none;
+	justify-content: space-between;
+}
+
+.flex-container__child2{
+	display: flex;
+	justify-content: space-between;
+}
+
+@media(min-width: 600px){
+	.flex-container{
+		display: flex;
+	}
+	.mobile-nav{
+		display: none;
+	}
+}

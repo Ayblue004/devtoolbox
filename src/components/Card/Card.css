@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{
+	display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.container{
+	max-width: 590px;
+	display: flex;
+	border-radius: 10px;
+	margin: 2rem;
+	background-color: #23242D;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container2{
+	max-width: 260px;
+	min-height: 450px;
+	display: block;
+	border-radius: 10px;
+	margin: 1rem;
+	background-color: #23242D;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container:hover{
+	box-shadow: 5px 4px 4px  #26EFBF;
+}
+
+.container2:hover{
+	box-shadow: 5px 4px 4px  #26EFBF;
+}
+
+.container--flex1{
+	display: flex;
+	align-items: center;
+}
+
+.container--flex12{
+	display: flex;
+	justify-content: center;
+}
+
+.container--flex2{
+	max-width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container--flex22{
+	max-width: 350px;
+	display: flex;
+	padding: 0rem 2rem 2rem ;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+span{
+	padding: 1rem;
+}
+
+img{
+	max-height: 134px;
+	max-width: 150px;
+}
+
+.name{
+	color: #26EFBF;
+	font-size: 2rem;
+	padding-bottom: 1rem;
+	font-family:  'Roboto', sans-serif;
+}
+
+.name2{
+	color: #26EFBF;
+	font-size: 2rem;
+	padding-bottom: 1rem;
+	font-family:  'Roboto', sans-serif;
+}
+
+
+.desc{
+	font-family:  'Roboto', sans-serif;	
+	font-size: 1rem;
+	color: white;
+	padding: 0.5rem;
+	max-width: 300px;
+}
+ 
+ .desc2{
+	font-family:  'Roboto', sans-serif;	
+	font-size: 1rem;
+	color: white;
+	padding: 1rem 0;
+	max-width: 170px;
+}
+
+ @media (max-width: 600px){
+ 	.container{
+ 		display: block;
+ 		margin: 1rem;
+ 		max-width: 260px;
+ 	}
+
+ 	span{
+ 		padding:2rem ;
+ 	}
+
+  	.container--flex2{
+  			padding-right: 2rem;
+ 	 	}
+
+ 	.container--flex2{
+ 		padding: 0rem 2rem 2rem ;
+ 	}
+
+ 	.desc{
+ 		max-width: 170px;
+ 		padding: 1rem 0;
+ 	}
+ }

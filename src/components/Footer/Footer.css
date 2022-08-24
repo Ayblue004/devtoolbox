@@ -1,0 +1,15 @@
+.footer-container{
+	background-color: black;
+}
+
+.footer-container__child1{
+	display: flex;
+	justify-content: center;
+	padding: 4rem;
+}
+
+@media (max-width: 600px){
+	.footer-container__child1{
+		display: block;
+	}
+}
