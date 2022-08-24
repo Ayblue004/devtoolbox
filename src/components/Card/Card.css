@@ -42,7 +42,7 @@
 
 .container--flex1{
 	display: flex;
-	align-items: center;
+	justify-content: center;
 }
 
 .container--flex12{
