@@ -7,8 +7,9 @@
 }
 
 .wrapper{
-	display: flex;
+    display: flex;
     flex-wrap: wrap;
+    max-width:1348px;
     margin: 0 auto;
     justify-content: space-evenly;
 }
