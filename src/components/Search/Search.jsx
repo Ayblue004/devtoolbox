@@ -8,7 +8,7 @@ function Search(){
 const [query, setQuery] = useState('§¶');
 const [feedback, setFeedback] = useState('');
 let filtered = Tools.filter(tools=>{
-	return tools.search.toLowerCase().includes(query.toLowerCase())
+	return tools.description.toLowerCase().includes(query.toLowerCase())
 })
 function handleFeedback(){
 		if(filtered.length < 1){
