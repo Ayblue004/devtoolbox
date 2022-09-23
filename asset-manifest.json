@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/devtoolbox/static/css/main.c1a4153f.css",
-    "main.js": "/devtoolbox/static/js/main.0786fbd9.js",
+    "main.css": "/devtoolbox/static/css/main.9011adfd.css",
+    "main.js": "/devtoolbox/static/js/main.ced12d33.js",
     "static/js/787.4f3a02b7.chunk.js": "/devtoolbox/static/js/787.4f3a02b7.chunk.js",
     "static/media/sublime-text.png": "/devtoolbox/static/media/sublime-text.d2b14087d92061b0eb10.png",
     "static/media/vscode.png": "/devtoolbox/static/media/vscode.d14aa5c2fcd87533de68.png",
@@ -22,12 +22,12 @@
     "static/media/jotform.png": "/devtoolbox/static/media/jotform.1212ae7ac18764ee6207.png",
     "static/media/unsplash.png": "/devtoolbox/static/media/unsplash.17d3c3d573eaf8e75465.png",
     "index.html": "/devtoolbox/index.html",
-    "main.c1a4153f.css.map": "/devtoolbox/static/css/main.c1a4153f.css.map",
-    "main.0786fbd9.js.map": "/devtoolbox/static/js/main.0786fbd9.js.map",
+    "main.9011adfd.css.map": "/devtoolbox/static/css/main.9011adfd.css.map",
+    "main.ced12d33.js.map": "/devtoolbox/static/js/main.ced12d33.js.map",
     "787.4f3a02b7.chunk.js.map": "/devtoolbox/static/js/787.4f3a02b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1a4153f.css",
-    "static/js/main.0786fbd9.js"
+    "static/css/main.9011adfd.css",
+    "static/js/main.ced12d33.js"
   ]
 }
