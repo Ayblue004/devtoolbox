@@ -19,10 +19,7 @@ If you don't receive an alert saying "Sorry, this tool already exists", proceed 
   
  ` image:"Name-of-tool.png",`
   
- ` link:"Home page of the tool",`
-  
- ` search:"Key-words describing the tool E.g(Code editor,background remover e.t.c)"`
-  
+ ` link:"Home page of the tool"` 
 `}`
 
 To the bottom of the Tools array in `src/Tool.jsx`
